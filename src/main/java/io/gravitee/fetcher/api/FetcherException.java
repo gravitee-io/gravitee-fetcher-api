@@ -15,13 +15,12 @@
  */
 package io.gravitee.fetcher.api;
 
-import java.io.InputStream;
-
 /**
- * @author David BRASSELY (david.brassely at graviteesource.com)
+ * @author Nicolas GERAUD (nicolas.geraud [at] graviteesource [dot] com)
  * @author GraviteeSource Team
  */
-public interface Fetcher {
-
-    InputStream fetch() throws FetcherException;
+public class FetcherException extends Exception {
+    public FetcherException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }
