@@ -29,12 +29,12 @@
 
     <groupId>io.gravitee.fetcher</groupId>
     <artifactId>gravitee-fetcher-api</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>Gravitee IO - Fetcher - API</name>
 
     <properties>
-        <gravitee-common.version>0.10.0</gravitee-common.version>
+        <gravitee-common.version>1.0.0-SNAPSHOT</gravitee-common.version>
     </properties>
 
     <dependencies>
