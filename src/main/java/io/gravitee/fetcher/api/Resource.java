@@ -15,13 +15,30 @@
  */
 package io.gravitee.fetcher.api;
 
+import java.io.InputStream;
+import java.util.Map;
+
 /**
- * @author David BRASSELY (david.brassely at graviteesource.com)
+ * @author Azize ELAMRANI (azize.elamrani at graviteesource.com)
  * @author GraviteeSource Team
  */
-public interface Fetcher {
-    String EDIT_URL_PROPERTY_KEY = "edit_url";
-    String PROVIDER_NAME_PROPERTY_KEY = "provider_name";
+public class Resource {
+    private InputStream content;
+    private Map<String, Object> metadata;
 
-    Resource fetch() throws FetcherException;
+    public InputStream getContent() {
+        return content;
+    }
+
+    public void setContent(InputStream content) {
+        this.content = content;
+    }
+
+    public Map<String, Object> getMetadata() {
+        return metadata;
+    }
+
+    public void setMetadata(Map<String, Object> metadata) {
+        this.metadata = metadata;
+    }
 }
