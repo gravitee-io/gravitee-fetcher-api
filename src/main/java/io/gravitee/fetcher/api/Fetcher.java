@@ -24,4 +24,5 @@ public interface Fetcher {
     String PROVIDER_NAME_PROPERTY_KEY = "provider_name";
 
     Resource fetch() throws FetcherException;
+    FetcherConfiguration getConfiguration();
 }
