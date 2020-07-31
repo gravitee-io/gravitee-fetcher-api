@@ -15,9 +15,28 @@
  */
 package io.gravitee.fetcher.api;
 
+import java.util.Optional;
+
 /**
+ * @author Eric LELEU (eric.leleu at graviteesource.com)
  * @author David BRASSELY (david.brassely at graviteesource.com)
  * @author GraviteeSource Team
  */
 public interface FetcherConfiguration {
+
+    /**
+     * Return the value for autoFetch configuration option
+     * @return true if the fetched page needs periodic update, false otherwise
+     */
+    default boolean isAutoFetch() {
+        return false;
+    }
+
+    /**
+     * Define the frequency of the fetch
+     * @return a string in "cron" format
+     */
+    default String getFetchCron() {
+        return null;
+    }
 }
