@@ -23,6 +23,7 @@ import java.util.Map;
  * @author GraviteeSource Team
  */
 public class Resource {
+
     private InputStream content;
     private Map<String, Object> metadata;
 

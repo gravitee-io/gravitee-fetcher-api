@@ -23,7 +23,6 @@ import java.util.Optional;
  * @author GraviteeSource Team
  */
 public interface FetcherConfiguration {
-
     /**
      * Return the value for autoFetch configuration option
      * @return true if the fetched page needs periodic update, false otherwise
