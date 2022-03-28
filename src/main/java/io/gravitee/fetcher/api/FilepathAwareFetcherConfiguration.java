@@ -16,7 +16,7 @@
 package io.gravitee.fetcher.api;
 
 /**
- * @author Nicolas GERAUD (nicolas.geraud at graviteesource.com) 
+ * @author Nicolas GERAUD (nicolas.geraud at graviteesource.com)
  * @author GraviteeSource Team
  */
 public interface FilepathAwareFetcherConfiguration {

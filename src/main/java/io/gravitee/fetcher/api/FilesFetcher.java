@@ -20,6 +20,5 @@ package io.gravitee.fetcher.api;
  * @author GraviteeSource Team
  */
 public interface FilesFetcher extends Fetcher {
-
     String[] files() throws FetcherException;
 }

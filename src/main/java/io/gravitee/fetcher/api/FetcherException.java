@@ -20,6 +20,7 @@ package io.gravitee.fetcher.api;
  * @author GraviteeSource Team
  */
 public class FetcherException extends Exception {
+
     public FetcherException(String message, Throwable cause) {
         super(message, cause);
     }
