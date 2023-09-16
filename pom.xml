@@ -34,7 +34,7 @@
     <name>Gravitee.io APIM - Fetcher - API</name>
 
     <properties>
-        <gravitee-common.version>1.18.0</gravitee-common.version>
+        <gravitee-common.version>1.28.0</gravitee-common.version>
     </properties>
 
     <dependencies>
