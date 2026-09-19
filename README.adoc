@@ -10,3 +10,14 @@ image:https://f.hubspotusercontent40.net/hubfs/7600448/gravitee-github-button.jp
 == Description
 The fetcher API contains the interfaces to implement in order to create a fetcher plugin for Gravitee.io APIM. +
 An example can be found https://github.com/gravitee-io/gravitee-fetcher-git[here]
+
+== Compatibility matrix
+
+|===
+| Plugin version | APIM            | Java version
+
+| 3.x            | 4.9.x to latest | 21
+| 2.x            | 4.9.x to latest | 17
+|===
+
+The *Java version* column is the bytecode level of the latest release of each line, which sets the minimum runtime able to load the artifact.
